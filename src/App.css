@@ -1,5 +1,11 @@
+html {
+  background-color: #262624;
+}
+
 .App {
   text-align: center;
+  height: 100%;
+  background-color: #0d3657;
 }
 
 .App-logo {
@@ -35,4 +41,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.producttable {
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 3em;
+  padding: 3em;
+  width: 50%;
+  color: white;
+}
+
+.searchbar input {
+  width: 90%;
+  margin: 0.5em;
+  margin-bottom: 2em;
+  padding: 0.2em;
+  text-align: center;
+}
+
+.searchbar h1 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.innertable {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+table th {
+  color: #a9b2b8;
 }
